@@ -17,7 +17,7 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 # ToDo List
 
 | Task | Statu |
-| -- | -- |
+| ----- | ------ |
 | Factory | Doing by [@DONGChuan ](https://github.com/DONGChuan)|
 | Singleton | Doing by [@DONGChuan ](https://github.com/DONGChuan) |
 | Builder |  |
