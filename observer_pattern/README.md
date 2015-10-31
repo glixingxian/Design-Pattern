@@ -1,6 +1,6 @@
 # Observer Pattern
 
-Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects will be notified automatically.
+Observer pattern is used when there is one-to-many relationship between objects such as **if one object is modified**, **its depenedent objects will be notified automatically**.
 
 A simple exemple:
 

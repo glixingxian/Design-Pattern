@@ -1,12 +1,12 @@
 # Pros Cons Strategy Pattern
 
-优点
+Pros:
 
-      1、策略模式提供了对“开闭原则”的完美支持，用户可以在不修改原有系统的基础上选择算法或行为，也可以灵活地增加新的算法或行为。
-      2、策略模式提供了可以替换继承关系的办法。
-      3、使用策略模式可以避免使用多重条件转移语句。
+1. Client can choose one strategy to use without affecting the system. It's also so flexiable to add a new strategy.
+2. It gives an idea to avoid use "extend"
+3. It avoids to use "if else"
 
-缺点
+Cons:
 
-      1、客户端必须知道所有的策略类，并自行决定使用哪一个策略类。
-      2、策略模式将造成产生很多策略类，
+1. Client needs to know all the Strategies and choose which one to use by itself.
+2. It could create many Strategy Classes.

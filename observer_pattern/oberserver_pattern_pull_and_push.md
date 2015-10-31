@@ -2,11 +2,11 @@
 
 In fact, there are two mechanisms for observer pattern:
 
-* Push
+* **Push**
 
 Subject "push" informations, for exemple a String, directly to observers.
 
-* Pull
+* **Pull**
 
 Subject notify observers directly with Subject instance, so observers could "pull" whatever they want from Subject instance.
 
