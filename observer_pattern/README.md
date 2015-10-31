@@ -1,7 +1,7 @@
 # Observer Pattern
 
-ToDo: Give an exemple.
+Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects will be notified automatically.
 
-定义对象间的一种一对多依赖关系，使得每当一个对象状态发生改变时，其相关依赖对象皆得到通知并被自动更新。
+A simple exemple:
 
-在此，发生改变的对象称为观察目标，而被通知的对象称为观察者，一个观察目标可以对应多个观察者，而且这些观察者之间没有相互联系，可以根据需要增加和删除观察者，使得系统更易于扩展，这就是观察者模式的模式动机。
+You get today the score of your exam, all the ones who cares about your result, for exemple, your parents will be notified automatically this score and prepare a "surprise" before you get home. Not only this time but also everytime a new score you get, they will be notified. They are "obersvering" your socre.

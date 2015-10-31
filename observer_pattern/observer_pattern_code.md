@@ -2,7 +2,6 @@
 
 #### Subject:
 
-
 The one to be observed. All the others listen to its change.
 
 ```
@@ -71,7 +70,6 @@ public class ConcreteObserver implements Observer {
     public void update() {
         System.out.println( "State changed: " + subject.getState() );
     }
-
 }
 ```
 
@@ -87,7 +85,6 @@ public class Client {
         Observer observer = new ConcreteObserver(subject);
         subject.change("new state");
     }
-
 }
 ```
 

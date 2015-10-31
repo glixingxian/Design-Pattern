@@ -4,16 +4,16 @@ In fact, there are two mechanisms for observer pattern:
 
 * Push
 
-主题对象向观察者推送主题的详细信息，不管观察者是否需要，推送的信息通常是主题对象的全部或部分数据。
+Subject "push" informations, for exemple a String, directly to observers.
 
 * Pull
 
-主题对象在通知观察者的时候，只传递少量信息。如果观察者需要更具体的信息，由观察者主动到主题对象中获取，相当于是观察者从主题对象中拉数据。一般这种模型的实现中，会把主题对象自身通过update()方法传递给观察者，这样在观察者需要获取数据的时候，就可以通过这个引用来获取了。
+Subject notify observers directly with Subject instance, so observers could "pull" whatever they want from Subject instance.
 
-根据上面的描述，发现前面的例子就是典型的拉模型，所对应
+The exemple in the last page is a "Pull"
 
-两种模式的比较
+# Push VS Pull
 
-　　■　　推模型是假定主题对象知道观察者需要的数据；而拉模型是主题对象不知道观察者具体需要什么数据，没有办法的情况下，干脆把自身传递给观察者，让观察者自己去按需要取值。
+Push supposes that Subject knows well what observers want. Pull doesn't know it, so Pull passes its own to observers to let them choose the informations they want.
 
-　　■　　推模型可能会使得观察者对象难以复用，因为观察者的update()方法是按需要定义的参数，可能无法兼顾没有考虑到的使用情况。这就意味着出现新情况的时候，就可能提供新的update()方法，或者是干脆重新实现观察者；而拉模型就不会造成这样的情况，因为拉模型下，update()方法的参数是主题对象本身，这基本上是主题对象能传递的最大数据集合了，基本上可以适应各种情况的需要。
+Push may make it difficult to reuse observers, because observers' update () method is based on parameters, it might not take into account the usages which are not taken into account. This means that when new situations arise, it needs to provide a new update() method, or simply to re-implement the observer. But with Pull, it would not cause such a situation, because update () method has Subject itself as input which has almost maximum data collection, and basically meet the needs of a variety of situations.

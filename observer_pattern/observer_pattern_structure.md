@@ -1,14 +1,16 @@
 # Observer Pattern Structure
 
-观察者模式所涉及的角色有：
+![Observer Pattern](../images/observer_pattern.png)
 
-Subject：抽象主题角色把所有对观察者对象的引用保存在一个聚集（比如ArrayList对象）里，每个主题都可以有任何数量的观察者。抽象主题提供一个接口，可以增加和删除观察者对象，抽象主题角色又叫做抽象被观察者(Observable)角色。
+#### Subject：
 
-具体主题(ConcreteSubject)角色：将有关状态存入具体观察者对象；在具体主题的内部状态改变时，给所有登记过的观察者发出通知。具体主题角色又叫做具体被观察者(Concrete Observable)角色。
+The one to be observered. Also called observable. It will keep a list to store all the observers. When it changes its state. It will notify all the observers stored in the list.
 
-如果被观察者只有一个. 没有必要抽象主题.
+#### Observer：
 
-抽象观察者(Observer)角色：为所有的具体观察者定义一个接口，在得到主题的通知时更新自己，这个接口叫做更新接口。
+An interface for all the observers. It has only one function notify() which will be called when Subject changes its state.
 
-具体观察者(ConcreteObserver)角色：存储与主题的状态自恰的状态。具体观察者角色实现抽象观察者角色所要求的更新接口，以便使本身的状态与主题的状态 像协调。如果需要，具体观察者角色可以保持一个指向具体主题对象的引用。
+#### ConcreteObserver：
+
+They need to implment notify(), so when Subject changes its state. They could have the right reaction.
 
