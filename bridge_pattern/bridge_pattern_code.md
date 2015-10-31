@@ -31,7 +31,7 @@ public abstract class Vehicle {
 
 **RefinedAbstraction: **
 
-Vehicle extended to do more behaviours. (Not used here to simplify exemples)
+Vehicle expended to do more behaviours. (Not used here to simplify exemples)
 
 ```
 public class RefinedVehicle extends Vehicle {
