@@ -2,7 +2,7 @@
 
 Published on gitbook: [Reading](https://www.gitbook.com/book/dongchuan/design-pattern/details)
 
-Held on gitbook: [Contribut](https://github.com/DONGChuan/Design-Pattern)
+Held on gitbook: [Contribute](https://github.com/DONGChuan/Design-Pattern)
 
 This is an open-source gitbook to present Design Patterns. All the exemples in this book are now writen in Java (Could be more with your contribution :D ). This book will be updated weekly until all the patterns are well presented for newbies. Welcome to join us.
 
