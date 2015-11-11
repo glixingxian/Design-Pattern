@@ -18,7 +18,7 @@ RefinedAbstraction is used to expanded to have more features or operations.
 
 Implementor is an interface to define behaviors. For a vehicle, it could be to transport something here.
 
-ConcreteImplementor is implementations for this behavior like transporting goods, transporting passages and so on.
+ConcreteImplementor is implementations for this behavior like transporting goods, transporting passagers and so on.
 
 Maybe could be easily to understand bridge pattern with its second name - Handle/Body pattern. Handle is the Abstraction here to handle its body (so its behaviors). With our example, a vehicle to handle transport!
 
