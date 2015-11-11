@@ -1,6 +1,6 @@
 # Java Built In Observer Pattern
 
-In java.util, We already have a Class called Observable and an **interface** called Observer, we could use them directly to desgin our patterns.
+In java.util, We already have a Class called Observable and an **interface** called Observer, we could use them directly to design our patterns.
 
 #### Observer Interface:
 
@@ -14,10 +14,10 @@ public interface Observer {
 
 #### Observable Class:
 
-In this class, we already have functions like add/remove an oberser and also other functions, but still we have two functions to pay attention：
+In this class, we already have functions like add/remove an observer and also other functions, but still we have two functions to pay attention:
 
 1. setChanged(): When it's called, it will set a internal flag to represent whether it has changed its state.
-2. notifyObservers(): When it's called, all the registered Observers will run their update() methodes.
+2. notifyObservers(): When it's called, all the registered Observers will run their update() methods.
 
 ```
 public class Observable {
@@ -98,7 +98,7 @@ public class Observable {
 
 ## Exemple:
 
-Here is a simple exemple. An observer class called Wathcer implementing Observer interface. An observed called Watched extending Observable class.
+Here is a simple example. An observer class called Watcher implementing Observer interface. An observed called Watched extending Observable class.
 
 
 #### Watched Class:
