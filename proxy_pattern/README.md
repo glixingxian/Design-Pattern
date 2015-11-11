@@ -6,7 +6,7 @@ But why we need a proxy to control the original object?
 
 Think about now you need to support a resource-hungry object which means it will consume lots of resource to be instantiated. So you do not want to instantiate such objects unless and until they are actually requested by the client.
 
-By Proxy Pattern, we could also add additional functionality, for exemple logs before and after each function, to the object of interest without changing the object's code.
+By Proxy Pattern, we could also add additional functionality, for example logs before and after each function, to the object of interest without changing the object's code.
 
 To summary:
 
@@ -15,6 +15,6 @@ To summary:
 
 In this chapter, we will see the following presentations:
 
-1. A simle exemple with a resource-hungry object
+1. A simple example with a resource-hungry object
 2. Static Proxy
 3. Dynamic Proxy
