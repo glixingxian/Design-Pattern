@@ -1,4 +1,4 @@
-# Observer Pattern Code
+# Observer Pattern Exemple
 
 #### Subject:
 

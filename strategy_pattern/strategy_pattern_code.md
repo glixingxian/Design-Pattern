@@ -1,4 +1,4 @@
-# Strategy Pattern Code
+# Strategy Pattern Exemple
 
 Now Client wants to sort something. There are three strategys:
 
