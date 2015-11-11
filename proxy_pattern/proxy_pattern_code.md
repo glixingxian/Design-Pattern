@@ -1,6 +1,6 @@
 # Proxy Pattern Exemple
 
-This is a simple exemple, here we use a proxy to control UserManagerImpl which is a resource-hungry object. It takes 3 second to be instantiated. So we want to instantiate it only when we really have to.
+This is a simple example, here we use a proxy to control UserManagerImpl which is a resource-hungry object. It takes 3 second to be instantiated. So we want to instantiate it only when we really have to.
 
 **Interface:**
 
