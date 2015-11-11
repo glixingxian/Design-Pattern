@@ -40,7 +40,7 @@ public class ProxyHandler implements InvocationHandler {
 
 To test:
 
-Use the same UserManager in previous exemple
+Use the same UserManager in previous example
 
 ```
 public class Client {
@@ -59,9 +59,9 @@ public class Client {
 
 Pros：
 1. A single ProxyHandler could work for all the agented objects and also their functions. We do not need to repeat codes like static proxy any more.
-2. Because of java reflection, the target object could be invoked at runtime.
+2. Because of java reflection, the target object could be invoked at run-time.
 
 Cons：
 1. A little slower than static.
 2. Not that readable as static.
-3. Only agent the class which implments an interface
+3. Only agent the class which implements an interface
