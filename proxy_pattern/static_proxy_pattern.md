@@ -1,8 +1,8 @@
 # Static Proxy Pattern
 
-It's static because when **compile**, the proxy has already decided to which object to agent. In the following exemple, the proxy will agent all subclasses of UserManager.
+It's static because when **compile**, the proxy has already decided to which object to agent. In the following example, the proxy will agent all sub classes of UserManager.
 
-Btw, the following exemple is not resource-hungry. Proxy here is used to add additional functionality.
+BTW, the following example is not resource-hungry. Proxy here is used to add additional functionality.
 
 **Interface:**
 
@@ -70,4 +70,4 @@ public class Client {
 }
 ```
 
-With static proxy, **it is not easy to expand**. When we have more objects to be agented. We need to create more proxies. What's more, we need also to **repeat codes**. For exemple, in the previous exemple, we need to add logs in every functions. It's why sometimes we need dynamic proxy.
+With static proxy, **it is not easy to expand**. When we have more objects to be agented. We need to create more proxies. What's more, we need also to **repeat codes**. For example, in the previous example, we need to add logs in every functions. It's why sometimes we need dynamic proxy.
