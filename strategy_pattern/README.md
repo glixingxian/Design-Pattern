@@ -6,7 +6,7 @@ Think about now you want to go out, you can choose take a bus, you can call a Ta
 
 In fact, we could choose "if else" to realize this. But this will cause the following problems:
 
-* Everytime you add a new algorithm/strategy, you need to change the code on client side.
+* Every time you add a new algorithm/strategy, you need to change the code on client side.
 
 * Many "If ... else ..." in your code, code maintenance will be more difficult.
 
