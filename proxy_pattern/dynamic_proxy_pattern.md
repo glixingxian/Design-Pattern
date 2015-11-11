@@ -1,6 +1,6 @@
 # Dynamic Proxy Pattern
 
-To realize dynamic proxy, we must implement [InvocationHandler](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/InvocationHandler.html) whihc is an interface implemented by the invocation handler of a proxy instance.
+To realize dynamic proxy, we must implement [InvocationHandler](http://docs.oracle.com/javase/7/docs/api/java/lang/reflect/InvocationHandler.html) which is an interface implemented by the invocation handler of a proxy instance.
 
 Each proxy instance has an associated invocation handler. When a method is invoked on a proxy instance, the method invocation is encoded and dispatched to the invoke method of its invocation handler.
 
