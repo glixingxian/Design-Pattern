@@ -2,13 +2,17 @@
 
 Reading Link: To Add
 
-This is an open-source git book to present Design Patterns. I'm so lost when I began to learn it. So I start to write this book to note all the things I learnt in my way and with my own understanding which could be easier for the beginers.
+This is an open-source gitbook to present Design Patterns. All the exemples in this book are now writen in Java. This book will be updated weekly until all the patterns are well presented for newbies. Welcome to join us.
+
+# Why I created this book
+
+I was so lost when I began to learn it. So I start to write this book to note all the things I learnt in my way and with my own understanding which could be easier for some beginers like me.
 
 I'm a newbie on both Design Patterns and English. Any corrections or suggestions would be greatly appreciated.
 
 # How to Contribute
 
-If you find any mistakes or want to update/translate the awesome notes, please follow the contributing guidelines. Any comments or suggestions would be greatly appreciated.
+If you find any mistakes or want to update it, please contact me by dongchuan55@gmail. This book is writen on platform [gitbook](https://www.gitbook.com), so you could directly use [gitbook editor](https://www.gitbook.com/editor) to edit it. Any comments or suggestions would be greatly appreciated. It could be an awesome note with your help.
 
 # License
 
@@ -40,7 +44,7 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 | Observer | Done |
 | Strategy | Done |
 | State | |
-| Visitor | |
+| Visitor | Doing by [@glixingxian](https://github.com/glixingxian)|
 | Memento |  |
 | Interview questions |  |
 
