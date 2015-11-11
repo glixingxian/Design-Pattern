@@ -1,6 +1,6 @@
 # Strategy Pattern Structure
 
-![Stragegy Pattern](../images/strategy_pattern.png)
+![Strategy Pattern](../images/strategy_pattern.png)
 
 #### Strategy
 
