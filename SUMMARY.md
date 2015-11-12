@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [Contents](contents/README.md)
 * [S.O.L.I.D Principles](solid/README.md)
+   * [Single responsibility](solid/single_responsibility.md)
    * [Open Close Principle](solid/open_close_principle.md)
 * [Observer Pattern](observer_pattern/README.md)
    * [Observer Pattern Structure](observer_pattern/observer_pattern_structure.md)
