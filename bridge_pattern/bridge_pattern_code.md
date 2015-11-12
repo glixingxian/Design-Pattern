@@ -1,15 +1,15 @@
 # Bridge Pattern Code
 
-Here is simple exemple:
+Here is simple example:
 
-There are two kinds of vehicle - Car and Camion
+There are two kinds of vehicle - Car and Truck
 Both of them want to transport - Goods and Passagers
 
 Think about also, in the future, we may have train, boat and so on. In the mean time, we also want to transport weapons or something else.
 
-**Abstration: **
+**Abstraction: **
 
-Vehicle which does behaviours - tranport
+Vehicle which does behaviors - transport
 
 ```
 public abstract class Vehicle {
@@ -31,7 +31,7 @@ public abstract class Vehicle {
 
 **RefinedAbstraction: **
 
-Vehicle expended to do more behaviours. (Not used here to simplify exemples)
+Vehicle expended to do more behaviors. (Not used here to simplify examples)
 
 ```
 public class RefinedVehicle extends Vehicle {
@@ -57,17 +57,17 @@ public class Car extends Vehicle {
 ```
 #### A Camion:
 ```
-public class Camion extends Vehicle {
+public class Truck extends Vehicle {
 	@Override
 	public void transport() {
-		System.out.print("Camion");
+		System.out.print("Truck");
 		super.transport();
 	}
 }
 ```
 #### Implementor:
 
-An interface to define behaviours - transport
+An interface to define behaviors - transport
 
 ```
 public interface Transport {
@@ -86,7 +86,7 @@ public class Goods implements Transport{
 }
 ```
 
-#### Tranport passagers:
+#### Transport passagers:
 
 ```
 public class Passagers implements Transport{
@@ -104,13 +104,13 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		Camion camion = new Camion();
+		Truck truck = new Truck();
         // Transport goods firstly
-		camion.setImplementor(new Goods());
-		camion.transport();
+		truck.setImplementor(new Goods());
+		truck.transport();
 		// Transport passagers secondly
-		camion.setImplementor(new Passagers());
-		camion.transport();
+		truck.setImplementor(new Passagers());
+		truck.transport();
 
 		Car car = new Car();
 		// Transport goods firstly
