@@ -16,17 +16,13 @@ I'm a newbie on both Design Patterns and English. Any corrections or suggestions
 
 If you find any mistakes or want to update it, please contact me by dongchuan55@gmail. This book is writen on platform [gitbook](https://www.gitbook.com), so you could directly use [gitbook editor](https://www.gitbook.com/editor) to edit it. Any comments or suggestions would be greatly appreciated. It could be an awesome note with your help.
 
-# License
-
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, please visit http://creativecommons.org/licenses/by-sa/4.0/
-
 # ToDo List
 
 | Task | Statu |
-| -- | -- |
+| ---- | ---- |
 | Factory | Doing by [@DONGChuan ](https://github.com/DONGChuan)|
 | Singleton | Doing by [@DONGChuan ](https://github.com/DONGChuan) |
-| Builder |  |
+| Builder | Done |
 | Prototype |  |
 | Object Pool |  |
 | Adapter |  |
@@ -53,4 +49,6 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 # Contributers
 
 
-# References
+# License
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, please visit http://creativecommons.org/licenses/by-sa/4.0/
