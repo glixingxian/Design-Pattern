@@ -20,7 +20,8 @@ If you find any mistakes or want to update it, please contact me by dongchuan55@
 
 | Task | Statu |
 | ---- | ---- |
-| Factory | Doing by [@DONGChuan ](https://github.com/DONGChuan)|
+| SOLID principles|Doing by [@DONGChuan ](https://github.com/DONGChuan) |
+| Factory | Doing by [@DONGChuan ](https://github.com/DONGChuan) |
 | Singleton | Doing by [@DONGChuan ](https://github.com/DONGChuan) |
 | Builder | Done |
 | Prototype |  |
