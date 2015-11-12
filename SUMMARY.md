@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Contents](contents/README.md)
 * [Observer Pattern](observer_pattern/README.md)
    * [Observer Pattern Structure](observer_pattern/observer_pattern_structure.md)
    * [Observer Pattern Exemple](observer_pattern/observer_pattern_code.md)
@@ -14,10 +15,13 @@
    * [When Use Strategy Pattern](strategy_pattern/when_use_strategy_pattern.md)
    * [Strategy Pattern Structure](strategy_pattern/strategy_pattern_structure.md)
    * [Strategy Pattern Exemple](strategy_pattern/strategy_pattern_code.md)
-   * [Pros Cons Strategy Pattern](strategy_pattern/pros_cons_strategy_pattern.md)
+   * [Pros and Cons](strategy_pattern/pros_cons_strategy_pattern.md)
 * [Bridge Pattern](bridge_pattern/README.md)
    * [Bridge Pattern Structure](bridge_pattern/bridge_pattern_structure.md)
    * [Bridge Pattern Exemple](bridge_pattern/bridge_pattern_code.md)
+* [Builder Pattern](builder_pattern/README.md)
+   * [Builder Pattern Exemple](builder_pattern/builder_pattern_exemple.md)
+   * [Pros and Cons](builder_pattern/pros_cons_builder_pattern.md)
 * [Factory Pattern](factory_pattern/README.md)
    * [Simple Factory Pattern](factory_pattern/simple_factory_pattern.md)
    * [Factory Method Pattern](factory_pattern/factory_method_pattern.md)
